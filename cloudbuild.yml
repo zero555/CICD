@@ -5,4 +5,3 @@ steps:
     args: ['package']
   - name: 'gcr.io/cloud-builders/mvn'
     args: ['install']
-images: ['gcr.io/$PROJECT_ID/spring-boot']
