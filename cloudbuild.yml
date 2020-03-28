@@ -1,6 +1,5 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/cicd/testImage', '.']
-    timeout: 500s
+    args: ['build', '-t', 'gcr.io/my-project-id/myimage', '.']
   - name: 'gcr.io/cloud-builders/docker'
-  - args: ['push', 'gcr.io/cicd/testImage']
+  - args: ['push', 'gcr.io/my-project-id/myimage']
