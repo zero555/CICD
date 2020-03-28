@@ -1,4 +1,4 @@
 steps:
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/cicd-272408/test', '.']
-images: ['gcr.io/cicd-272408/test']
+  - name: 'eu.gcr.io/cloud-builders/docker'
+    args: ['build', '-t', 'eu.gcr.io/cicd-272408/test', '.']
+images: ['eu.gcr.io/cicd-272408/test']
