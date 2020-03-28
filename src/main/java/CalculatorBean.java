@@ -32,7 +32,7 @@ public class CalculatorBean {
     }
 
     public String getResult() {
-        return _result;
+        return "1";
     }
     //
 
