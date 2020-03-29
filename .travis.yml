@@ -3,7 +3,7 @@ jdk: oraclejdk8
 dist: trusty
 install: true
 script:
-  - "mvn clean install"
+  - "mvn test"
 cache:
   directories:
     - $HOME/.m2
