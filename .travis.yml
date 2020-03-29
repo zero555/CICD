@@ -3,9 +3,7 @@ jdk: oraclejdk8
 dist: trusty
 install: true
 script:
-  - ./mvnw clean install
-  - bash <(curl -s https://codecov.io/bash)
-
+  - "mvn clean install"
 cache:
   directories:
     - $HOME/.m2
