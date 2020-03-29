@@ -1,9 +1,0 @@
-version: '2'
-services:
-  web:
-    build:
-      context: .
-    container_name: web_name
-    image: web_name
-    ports:
-      - "8080:8080"
